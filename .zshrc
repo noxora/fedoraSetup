@@ -64,7 +64,8 @@ ZSH_THEME="robbyrussell"
 plugins=(
   git
 )
-
+ZSH_THEME="blinks"
+alias ls="ls -lash"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration

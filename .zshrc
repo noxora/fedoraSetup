@@ -53,8 +53,6 @@ plugins=(
   git
 )
 ZSH_THEME="blinks"
-alias l='ls -lsh'
-alias la='ls -lash'
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -85,3 +83,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias l='ls -lsh'
+alias la='ls -lash'

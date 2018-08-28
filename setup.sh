@@ -30,7 +30,8 @@ echo "\n\nCODE HAS BEEN INSTALLED\n\n"
 
 #Install ZSH
 sudo dnf install zsh
-chsh -s $(which zsh)
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+sudo usermod --shell $(which zsh) $(whoami)
 mv .zshrc ~/.zshrc
 echo "\n\nZSH HAS BEEN INSTALLED\n\n"
 
